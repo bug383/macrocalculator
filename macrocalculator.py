@@ -3,7 +3,7 @@
 
 while True:
     try:
-        age = float(input("Enter your age: "))
+        age = int(input("Enter your age: "))
         height = float(input("Enter your height: "))
         weight = float(input("Enter your weight: "))
         gender = int(input("Enter your gender (1: Woman, 2: Man): "))
